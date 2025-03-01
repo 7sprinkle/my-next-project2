@@ -17,6 +17,8 @@
   width: auto;
 }
 
+/* s */
+
 @media(max-width) {
   .header {
     padding: 24px 16px 8px;

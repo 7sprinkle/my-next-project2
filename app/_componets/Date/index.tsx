@@ -12,5 +12,5 @@ export default function Date({ date }: Props) {
       <Image src="/clock.svg" alt="" width={16} height={16} loading="eager" />
       {date}
     </span>
-  )
+  );
 }
