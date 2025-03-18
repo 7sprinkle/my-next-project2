@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import NewsList from "@/app/_componets/NewsList";
 import Pagination from "@/app/_componets/Pagination";
 import Category from "@/app/_componets/Category";
-import { NEWS_LIST_LIMIT } from "@/nextjs-website-sample-main/app/_constants";
+import { NEWS_LIST_LIMIT } from "@/app/_constants/index";
 
 type Props = {
   params: {

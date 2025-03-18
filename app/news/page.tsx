@@ -2,7 +2,7 @@ import { getNewsList } from "../_libs/microcms";
 import NewsList from "../_componets/NewsList";
 import Pagination from "../_componets/Pagination";
 import SearchField from "../_componets/SearchField";
-import { NEWS_LIST_LIMIT } from "@/nextjs-website-sample-main/app/_constants";
+import { NEWS_LIST_LIMIT } from "@/app/_constants/index";
 
 
 export default async function Page() {
