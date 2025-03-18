@@ -1,7 +1,19 @@
 import { getNewsList } from "../_libs/microcms";
 import NewsList from "../_componets/NewsList";
+import Pagination from "../_componets/Pagination";
+import SearchField from "../_componets/SearchField";
+import { NEWS_LIST_LIMIT } from "@/nextjs-website-sample-main/app/_constants";
+
 
 export default async function Page() {
-  const { contents: news } = await getNewsList();
-  return <NewsList news={news} />
+  const { contents: news, totalCount } = await getNewsList({
+    limit: NEWS_LIST_LIMIT,
+  })
+  return (
+    <>
+      <SearchField />
+      <NewsList news={news} />
+      <Pagination totalCount={totalCount} />
+    </>
+  )
 }
