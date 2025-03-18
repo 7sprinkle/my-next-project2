@@ -14,7 +14,7 @@ export type Category = {
 
 export type News = {
   title: string;
-  discription: string;
+  description: string;
   content: string;
   thumbnail?: MicroCMSImage;
   category: Category;
