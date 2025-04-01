@@ -2,7 +2,7 @@ import Hero from "@/app/_componets/Hero";
 import Sheet from "@/app/_componets/sheet";
 
 export const metadata = {
-  title: "コンタクト｜シンプルなコーポレートサイト",
+  title: "お問い合わせ",
 };
 
 type Props = {
