@@ -5,7 +5,7 @@ import Footer from "./_componets/Footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL('https://my-next-project2-xi.vercel.app'),
   title: {
     template: '%s | シンプルなコーポレートサイト',
     default: 'シンプルなコーポレートサイト',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     images: ['/ogp.png'],
   },
   alternates: {
-    canonical: 'http://localhost:3000',
+    canonical: 'https://my-next-project2-xi.vercel.app',
   },
 };
 
